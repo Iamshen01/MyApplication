@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.myapplication" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".VolleyTestActivity"
+            android:label="@string/title_activity_volley_test" >
+        </activity>
+        <activity
+            android:name=".ListViewTestActivity"
+            android:label="@string/title_activity_list_view_test" >
+        </activity>
+        <activity
+            android:name=".VolleyImageTestActivity"
+            android:label="@string/title_activity_volley_image_test" >
+        </activity>
+        <activity
+            android:name=".TabHostActivity1"
+            android:label="@string/title_activity_tab_host_activity1" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EventTestActivity"
+            android:label="@string/title_activity_event_test" >
+
+        </activity>
+    </application>
+
+</manifest>

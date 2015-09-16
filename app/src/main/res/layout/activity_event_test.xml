@@ -1,0 +1,16 @@
+<com.example.administrator.view.OutLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.myapplication.EventTestActivity">
+
+    <com.example.administrator.view.MidLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/mid_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </com.example.administrator.view.MidLayout>
+
+</com.example.administrator.view.OutLayout>
